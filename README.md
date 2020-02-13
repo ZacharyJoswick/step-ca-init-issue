@@ -1,4 +1,4 @@
-# Step ca init issue
+# Step ca init issue with preexisting keys
 This repo serves to demonstrate that the step cli command `step ca init` cannot be fully automated when using a preexisting encrypted key file. The cli ignores the --password-file command and will always prompt for a decryption password, which interferes with automation tools such as ansible.
 
 ## Usage
