@@ -6,7 +6,7 @@ To demonstrate this issue perform the following steps:
 
 1. Build the docker container
         
-        docker build -t step-issue-example -f step-ca-init-issue.Dockerfile
+        docker build -t step-issue-example -f step-ca-init-issue.Dockerfile .
 
 2. Run the container
 
